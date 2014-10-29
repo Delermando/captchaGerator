@@ -116,7 +116,7 @@ class Captcha
         if ($x - 4 > $width) 
         {
             $this->captchaGerator($width, $height, $ch);
-            exit;
+            //exit;
         }
 
         $x = ($width - $x) / 2;
